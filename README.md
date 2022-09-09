@@ -3,6 +3,7 @@
 Name :SETTY-POOJITHA
 Roll no :212221240050
 Date of experiment :09/09/2022
+```
 
 # Aim:
 To Write and execute ALP on fundamental arithmetic and logical operations.
@@ -15,7 +16,7 @@ To Write and execute ALP on fundamental arithmetic and logical operations.
 Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as EMU8086, is an emulator of the program 8086 microprocessor. It is developed with a built-in 8086 assembler. This application is able to run programs on both PC desktops and laptops. This tool is primarily designed to copy or emulate hardware. These include the memory of a program, CPU, RAM, input and output devices, and even the display screen. There are instructions to follow when using this emulator. It can be executed into one of the two ways: backward or forward. There are also examples of assembly source code included. With this, it allows the programming of assembly language, reverse engineering, hardware architecture, and creating miniature operating system (OS). The user interface of 8086 Microprocessor Emulator is simple and easy to manage. There are five major buttons with icons and titles included. These are “Load”, “Reload”, “Step Back”, “Single Step”, and “Run”. Above those buttons is the menu that includes “File”, “View”, “Virtual Devices”, “Virtual Drive”, and “Help”. Below the buttons is a series of choices that are usually in numbers and codes. At the leftmost part is an area called “Registers” with an indication of either “H” or “L”. The other side is divided into two, which enables users to manually reset, debug, flag, etc. What is 8086 emulator emu8086 is an emulator of Intel 8086 (AMD compatible) microprocessor with integrated 8086 assembler and tutorials for beginners. Emulator runs programs like the real microprocessor in step-by-step mode. it shows registers, memory, stack, variables and flags.
 
 
- # Running the Emulator :
+# Running the Emulator :
 1.	Download and install emu8086 (www.emu8086.com) It is usually installed in C:\EMU8086 subfolder in the “Windows” directory
 2.	Run  emu8086 icon (on the desktop or in the c:\EMU8086 folder of window) It has green color 
 3.	write the code for the appropriate program for ADDITION,SUBTRACTION, MULTIPLICATION,  DIVISION operations 
@@ -47,8 +48,7 @@ HLT;
 ```
 
 ## Output:  
-![image](https://user-images.githubusercontent.com/93427581/189412141-e1e35416-2e9e-42a4-99c9-9f88ce0bf802.png)
-
+![add](https://user-images.githubusercontent.com/93427581/189416426-6f8454c7-1506-4868-ac7c-449abfabc4f5.png)
  
 ## Subtraction  of 8 bit  ALP :
 ```
@@ -62,9 +62,9 @@ MOV AH,00H;
 HLT;
  ```
 ## Output:  
-![image](https://user-images.githubusercontent.com/93427581/189412197-458e1106-b296-48c0-b581-94f3246d9124.png)
+![sub](https://user-images.githubusercontent.com/93427581/189416509-d27aa9dc-3ab5-44e2-bb2d-0f6db98389d3.png)
 
-## Multiplication of 8 bit alp :
+## Multiplication of 8 bit ALP:
 ```
 name "MULTIPLICATION"
 org 700h
@@ -75,12 +75,10 @@ MOV CL,AL;
 MOV AL,00H;
 HLT;
 ```
- ## Output : 
- ![image](https://user-images.githubusercontent.com/93427581/189412236-229f0385-f642-4db7-9663-41d5fa6fef81.png)
+## Output : 
+![mul](https://user-images.githubusercontent.com/93427581/189416612-5b616cdf-c25e-4e63-9661-f66990e035c3.png)
 
-
-
-## Division of 8bit  alp :
+## Division of 8 bit ALP :
 ```
 name "DIVISION"
 org 700h
@@ -94,10 +92,9 @@ HLT;
 
 ## Output :
 
-![image](https://user-images.githubusercontent.com/93427581/189412409-058180fc-d475-4afa-bc68-47df84e0e584.png)
+![div](https://user-images.githubusercontent.com/93427581/189416689-affad0ee-05d3-4964-8efe-b20333d14f65.png)
 
-
-## Result :
+# Result :
 Thus, a program is executed on ALP for the fundamental arithmetic and logical operations.
  
 
